@@ -1,0 +1,304 @@
+{
+  "main": {
+    "id": "7c4b4f5fe2581e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "122cbb802fdc34c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fedeeb268109c48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(2024) Efficient Debris-Flow Simulation for Steep Terrain Erosion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(2024) Efficient Debris-Flow Simulation for Steep Terrain Erosion"
+            }
+          },
+          {
+            "id": "5076af7b506b2e54",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "e6fe29e4bdcac836",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "b256f11b0ad0e08d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(2022) Hydraulic Erosion Simulation the GPU for 3D terrains.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(2022) Hydraulic Erosion Simulation the GPU for 3D terrains"
+            }
+          },
+          {
+            "id": "605296d4aa325c91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(2024) Efficient Debris-Flow Simulation for Steep Terrain Erosion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(2024) Efficient Debris-Flow Simulation for Steep Terrain Erosion"
+            }
+          },
+          {
+            "id": "99a9a089124812ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(2024) Efficient Debris-Flow Simulation for Steep Terrain Erosion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(2024) Efficient Debris-Flow Simulation for Steep Terrain Erosion"
+            }
+          },
+          {
+            "id": "7fb596e59f6b39a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(2022) Steady-state forms of channel profiles shaped by debris flow and fluvial processes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(2022) Steady-state forms of channel profiles shaped by debris flow and fluvial processes"
+            }
+          },
+          {
+            "id": "c409bc10ac429abe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "(1995) Dynamic Simulation of Splashing Fluids.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "(1995) Dynamic Simulation of Splashing Fluids"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b37bd8dfc89b784",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3bdb506a05abd4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bcfe8a16ef39d70",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "acb8bbec4c0edfef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c1acb26a6e894554",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4709d07d219cef79",
+    "type": "split",
+    "children": [
+      {
+        "id": "67a311d64f902470",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ef82de7241c4968",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "(2022) Steady-state forms of channel profiles shaped by debris flow and fluvial processes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "662c2e524aab7cd1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "(2022) Steady-state forms of channel profiles shaped by debris flow and fluvial processes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ba6d3bf3631d3a53",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "811be344474687ca",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b350418dcb999731",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "(2022) Steady-state forms of channel profiles shaped by debris flow and fluvial processes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7fb596e59f6b39a0",
+  "lastOpenFiles": [
+    "(2022) Steady-state forms of channel profiles shaped by debris flow and fluvial processes.md",
+    "(2024) Efficient Debris-Flow Simulation for Steep Terrain Erosion.md",
+    "(2024) Simulating Hidraulic Erosion Utilizing Graphics Processors.md",
+    "(2023) Forming Terrains by Glacial Erosion.md",
+    "(2023) Sediment controls on the transition from debris flow to fluvial channels in steep mountain ranges.md",
+    "(1993) Landscapes Synthesis Achieved through Erosion and Deposition Process Simulation.md",
+    "(2011) Fast Hydraulic Erosion SImulation and Visualization on GPU.md",
+    "(2016) Large Scale Terrain Generation from Tectonic Uplift and Fluvial Erosion.md",
+    "(1985) Sediment Transport Capacity of Overland Flow.md",
+    "(2022) Hydraulic Erosion Simulation the GPU for 3D terrains.md",
+    "(2019) A Review of Digital Terrain Modeling.md",
+    "(1995) Dynamic Simulation of Splashing Fluids.md",
+    "(1995/) Dynamic Simulation of Splashing Fluids.md",
+    "(1995",
+    "(2007) Animating Corrosion and Erosion.md",
+    "(2002) Visual Simulation of Hydraulic Erosion.md",
+    "(1997) The Physics of Debris Flows.md",
+    "Paper Links.md",
+    "(2023) Large-scale Terrain Authoring through Interactive Erosion Simulation.md"
+  ]
+}
