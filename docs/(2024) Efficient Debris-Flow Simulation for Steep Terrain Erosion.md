@@ -10,6 +10,7 @@ ___
 
 - This paper builds on the work discussed [[(2023) Forming Terrains by Glacial Erosion |here]]
 	- This approach failed to accuratley erode the steep cliffs left after glaciers receded
+	- **Maybe my project could be combining the work of these two papers maybe?**
 
 
 ## Similar Papers
