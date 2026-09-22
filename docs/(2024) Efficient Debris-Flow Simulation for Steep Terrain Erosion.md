@@ -9,7 +9,7 @@ ___
 	- When considering generation of mountain ranges you need to consider tectonic uplift
 
 - This paper builds on the work discussed [[(2023) Forming Terrains by Glacial Erosion |here]]
-	- This approach failed to accuratley erode the steep cliffs left after glaciers receded
+	- This approach failed to accurately erode the steep cliffs left after glaciers receded
 
 
 ## Similar Papers
@@ -25,3 +25,5 @@ ___
 
 (7) [[(1993) Landscapes Synthesis Achieved through Erosion and Deposition Process Simulation]]
 (8) [[(2022) Steady-state forms of channel profiles shaped by debris flow and fluvial processes]]
+
+(9) [[(2001) Layered Data Representation for Visual Simulation of Terrain Erosion]]
