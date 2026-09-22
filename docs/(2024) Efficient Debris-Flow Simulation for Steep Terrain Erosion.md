@@ -26,3 +26,5 @@ ___
 
 (7) [[(1993) Landscapes Synthesis Achieved through Erosion and Deposition Process Simulation]]
 (8) [[(2022) Steady-state forms of channel profiles shaped by debris flow and fluvial processes]]
+
+(9) [[(2001) Layered Data Representation for Visual Simulation of Terrain Erosion]]
