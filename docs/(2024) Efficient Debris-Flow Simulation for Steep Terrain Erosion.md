@@ -12,6 +12,11 @@ ___
 	- This approach failed to accuratley erode the steep cliffs left after glaciers receded
 	- **Maybe my project could be combining the work of these two papers maybe?**
 
+- **Debris Flow:**
+	- Use a Coulomb criterion to determine when a debris flow occurs
+	- Once a debris flow is triggered treat it as a fluid
+	- Determine deposition based off the slope, once you get to 0 stop depositing
+
 
 ## Similar Papers
 (1) [[(2016) Large Scale Terrain Generation from Tectonic Uplift and Fluvial Erosion]]
