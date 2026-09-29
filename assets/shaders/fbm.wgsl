@@ -18,6 +18,7 @@ fn vertex(vertex: Vertex) -> VertexOutput {
         vec4<f32>(vertex.position, 1.0),
     );
     out.blend_color = out.clip_position;
+    out.clip_position.y = pow(out.clip_position.x, 2) + pow(out.clip_position.z, 2);
     return out;
 }
 
