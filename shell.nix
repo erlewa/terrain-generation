@@ -7,8 +7,10 @@ mkShell rec {
     pkg-config
   ];
   buildInputs = [
-    udev alsa-lib vulkan-loader rustc cargo
+    udev alsa-lib vulkan-loader 
+    rustc rustfmt cargo
     libxkbcommon wayland # To use the wayland feature
   ];
   LD_LIBRARY_PATH = lib.makeLibraryPath buildInputs;
+
 }
