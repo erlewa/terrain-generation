@@ -12,9 +12,11 @@ struct Vertex {
 @vertex
 fn vertex(vertex: Vertex) -> VertexOutput {
     var out: VertexOutput;
+
+    var height = fbm(vec2<f32>(vertex.position.x, vertex.position.z));
     out.position = mesh_position_local_to_clip(
         get_world_from_local(vertex.instance_index),
-        vec4<f32>(vertex.position, 1.0),
+        vec4<f32>(vertex.position.x, height, vertex.position.z, 1.0),
     ); 
     return out;
 }
