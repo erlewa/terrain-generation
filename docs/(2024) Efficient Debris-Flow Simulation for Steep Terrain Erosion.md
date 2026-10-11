@@ -2,6 +2,7 @@ Aryamaan Jain, Bedrich Benes, Guillaume Cordonnier
 
 https://www-sop.inria.fr/reves/Basilic/2024/JBC24/2024_Siggraph_Debris_Flow_Author_Version.pdf
 ___
+**CODE:** https://gitlab.inria.fr/landscapes/debrisflow
 **Simulating rock/mud slide erosion on steep slopes provides more realistic ridge lines**
 - Leads to the creation of erosion scars, sharp ridge lines, and fluvial deposition shapes at the base of the mountains
 - Similar work was done in (1) and (2) but generated smooth and uniform terrain when applied at small scale, ie. few valleys of up to 10 km
@@ -9,13 +10,27 @@ ___
 	- When considering generation of mountain ranges you need to consider tectonic uplift
 
 - This paper builds on the work discussed [[(2023) Forming Terrains by Glacial Erosion |here]]
-	- This approach failed to accuratley erode the steep cliffs left after glaciers receded
-	- **Maybe my project could be combining the work of these two papers maybe?**
+	- Existing approach for fluvial errosion failed to accuratley erode the steep cliffs left after glaciers receded
+	- Original paper proposed first empirical approximation for debris flow simulation, this paper proposes method based on geomorphology
+	- **Maybe my project could be combining the work of these two papers?**
 
+- Uplift, U, is used to account for effects of tectonics on mountain formation
+	- Directly increases elevation of bedrock layer
+$$
+\begin{aligned}
+\frac{𝜕𝑏}{𝜕𝑡} &= U ; \\
+\\
+\frac{𝜕𝑠}{𝜕𝑡} &= F^+ + H^+ \\
+\\
+\frac{𝜕𝑑}{𝜕𝑡} &= D^+
+\end{aligned}
+$$
+- Paper proposes model to handle debris flow and fluvial errosion together
 - **Debris Flow:**
 	- Use a Coulomb criterion to determine when a debris flow occurs
-	- Once a debris flow is triggered treat it as a fluid
+	- Once a debris flow is triggered treat it as a fluid and handle errosion over surfaces that it flows over
 	- Determine deposition based off the slope, once you get to 0 stop depositing
+	- Direction is semi random but probability of neighbouring cell being selected to recive debris is based on the difference in elevation between it and the current cell leading the flow to generally follow the steepest slope without axis aligned patterns, **Project Idea: try dispersing flow across a few neighboring cells with amount based on some kind of weight?**
 
 
 ## Similar Papers
