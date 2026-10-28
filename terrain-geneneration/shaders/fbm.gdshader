@@ -23,8 +23,8 @@ float noise(vec2 uv) {
 float fbm(vec2 uv) {
 	float fbm = 0.0;
 	
-	int oct = 4;
-	float amp = 1.2;
+	int oct = 5;
+	float amp = 2.0;
 	float freq = 1.0;
 	
 	for (int i = 0; i < oct; i++) {

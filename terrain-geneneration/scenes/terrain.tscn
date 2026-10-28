@@ -3,22 +3,34 @@
 [ext_resource type="Shader" uid="uid://cpuinyam504q3" path="res://shaders/fbm_terrain.gdshader" id="1_b0j75"]
 [ext_resource type="Shader" uid="uid://dg6ajku0awfhs" path="res://shaders/fbm.gdshader" id="2_oqplg"]
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_vjhlg"]
+[sub_resource type="ViewportTexture" id="ViewportTexture_oqplg"]
 viewport_path = NodePath("SubViewport")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_unmtw"]
 resource_local_to_scene = true
 render_priority = 0
 shader = ExtResource("1_b0j75")
-shader_parameter/fbm = SubResource("ViewportTexture_vjhlg")
+shader_parameter/fbm = SubResource("ViewportTexture_oqplg")
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_cbw3o"]
 material = SubResource("ShaderMaterial_unmtw")
-subdivide_width = 32
-subdivide_depth = 32
+subdivide_width = 64
+subdivide_depth = 64
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vjhlg"]
 shader = ExtResource("2_oqplg")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_gwb8k"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0kqs4"]
+resource_local_to_scene = true
+albedo_texture = SubResource("ViewportTexture_gwb8k")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_0kqs4"]
+material = SubResource("StandardMaterial3D_0kqs4")
+subdivide_width = 16
+subdivide_depth = 16
 
 [node name="Terrain3D" type="Node3D" unique_id=1499626937]
 
@@ -26,6 +38,7 @@ shader = ExtResource("2_oqplg")
 mesh = SubResource("PlaneMesh_cbw3o")
 
 [node name="SubViewport" type="SubViewport" parent="." unique_id=1410502932]
+disable_3d = true
 
 [node name="ColorRect" type="ColorRect" parent="SubViewport" unique_id=2142066441]
 material = SubResource("ShaderMaterial_vjhlg")
@@ -43,3 +56,11 @@ omni_range = 5.883
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=343302757]
 transform = Transform3D(-0.7941989, 0.3829087, -0.47183585, 0, 0.7764827, 0.6301386, 0.6076579, 0.5004553, -0.6166817, -1.2475898, 1.9935588, -1.9250735)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1524844043]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.1046257, 0, 0)
+mesh = SubResource("PlaneMesh_0kqs4")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1247823458]
+transform = Transform3D(1, 0, 0, 0, -0.0001166304, 1, 0, -1, -0.0001166304, 0, 0.8309276, 0)
+visible = false
