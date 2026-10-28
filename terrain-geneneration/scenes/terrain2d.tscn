@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://d2hlf7rwuf21u"]
+
+[ext_resource type="Shader" uid="uid://dg6ajku0awfhs" path="res://shaders/fbm.gdshader" id="1_een1g"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cbw3o"]
+shader = ExtResource("1_een1g")
+
+[node name="Node" type="Node" unique_id=508756275]
+
+[node name="SubViewport" type="SubViewport" parent="." unique_id=1626703969]
+
+[node name="ColorRect" type="ColorRect" parent="SubViewport" unique_id=1946130644]
+material = SubResource("ShaderMaterial_cbw3o")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
