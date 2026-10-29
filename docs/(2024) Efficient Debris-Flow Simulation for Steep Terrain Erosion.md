@@ -31,8 +31,9 @@ $$
 		- When the push force of gravity exceeds the pull force of other rocks
 	- Once a debris flow is triggered treat it as a fluid and handle errosion over surfaces that it flows over
 	- Determine deposition based off the slope, once you get to 0 stop depositing
-	- Direction is semi random but probability of neighbouring cell being selected to recive debris is based on the difference in elevation between it and the current cell leading the flow to generally follow the steepest slope without axis aligned patterns, **Project Idea: try dispersing flow across a few neighboring cells with amount based on some kind of weight?** May have been done [[(1994) Multiple Flow Direction Algorithms for Runoff Modelling in Grid Based Elevation Models an Empirical Evaluation|here]]
-
+	- Direction is semi random but probability of neighbouring cell being selected to recive debris is based on the difference in elevation between it and the current cell leading the flow to generally follow the steepest slope without axis aligned patterns, **Project Idea: try dispersing flow across a few, randomly selected, neighboring cells?**
+		- Summary of work done [[(1994) Multiple Flow Direction Algorithms for Runoff Modelling in Grid Based Elevation Models - An Empirical Evaluation|here]]:
+			Single axis-aligned flow results in a flow pattern that is too quickly converging while flow to all neighboring cells based on the difference in elevation as a proportion results in too smoother terrain. Ideal is somewhere between the two.
 
 ![[Pasted image 20261011122058.png]]
 
