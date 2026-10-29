@@ -36,7 +36,8 @@ vec3 compute_normal(vec2 uv) {
 // \(d_x = \frac{\text{height}(x+1, y) - \text{height}(x-1, y)}{2}\)
 // \(d_y = \frac{\text{height}(x, y+1) - \text{height}(x, y-1)}{2}\)
 void vertex() {
-	VERTEX = vec3(VERTEX.x, texture(fbm, UV).r, VERTEX.z);
+	ivec2 pixel = get_tex_pixel_coord(UV);
+	VERTEX = vec3(VERTEX.x, texelFetch(fbm, pixel, 0).r, VERTEX.z);
 	NORMAL = compute_normal(UV);
 }
 

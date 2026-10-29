@@ -25,13 +25,16 @@ $$
 \frac{𝜕𝑑}{𝜕𝑡} &= D^+
 \end{aligned}
 $$
-- Paper proposes model to handle debris flow and fluvial errosion together
+- Paper proposes model to handle debris flow and fluvial erosion together
 - **Debris Flow:**
 	- Use a Coulomb criterion to determine when a debris flow occurs
+		- When the push force of gravity exceeds the pull force of other rocks
 	- Once a debris flow is triggered treat it as a fluid and handle errosion over surfaces that it flows over
 	- Determine deposition based off the slope, once you get to 0 stop depositing
-	- Direction is semi random but probability of neighbouring cell being selected to recive debris is based on the difference in elevation between it and the current cell leading the flow to generally follow the steepest slope without axis aligned patterns, **Project Idea: try dispersing flow across a few neighboring cells with amount based on some kind of weight?**
+	- Direction is semi random but probability of neighbouring cell being selected to recive debris is based on the difference in elevation between it and the current cell leading the flow to generally follow the steepest slope without axis aligned patterns, **Project Idea: try dispersing flow across a few neighboring cells with amount based on some kind of weight?** May have been done [[(1994) Multiple Flow Direction Algorithms for Runoff Modelling in Grid Based Elevation Models an Empirical Evaluation|here]]
 
+
+![[Pasted image 20261011122058.png]]
 
 ## Similar Papers
 (1) [[(2016) Large Scale Terrain Generation from Tectonic Uplift and Fluvial Erosion]]

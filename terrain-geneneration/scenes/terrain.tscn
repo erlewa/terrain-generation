@@ -37,7 +37,7 @@ grow_vertical = 2
 metadata/_edit_use_anchors_ = true
 
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=2066363735]
-transform = Transform3D(1, 0, 0, 0, 0.35362428, -0.93538755, 0, 0.93538755, 0.35362428, -0.011878371, 1.7851954, 1.590866)
+transform = Transform3D(1, 0, 0, 0, 0.35362428, -0.93538755, 0, 0.93538755, 0.35362428, 0.37111723, 1.7851954, 2.0853696)
 light_energy = 1.466
 omni_range = 5.883
 
